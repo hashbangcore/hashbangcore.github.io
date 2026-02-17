@@ -1,13 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="/index.css">
-  <title>Hash</title>
+  <title>{{ section.title | default(value="Hash") }}</title>
 </head>
 <body>
-  <h1>Hash</h1>
+  <div class="app">
+    <header class="app__header">
+      <div class="header__inner">
+        <span class="header__brand"></span>
+        <button class="theme-toggle" type="button" aria-pressed="false">
+          Cambiar tema
+        </button>
+      </div>
+    </header>
+    <div class="app__body">
+      <aside class="app__sidebar">
+        <div class="sidebar__inner">
+          <h1></h1>
+          <nav class="sidebar__icons" aria-label="Navegación">
+            <button class="icon-btn" type="button" aria-label="Inicio">🏠</button>
+            <button class="icon-btn" type="button" aria-label="Archivo">🗂️</button>
+            <button class="icon-btn" type="button" aria-label="Buscar">🔎</button>
+            <button class="icon-btn" type="button" aria-label="Acerca">❖</button>
+          </nav>
+        </div>
+      </aside>
+      <div class="app__resizer" role="separator" aria-orientation="vertical" aria-label="Resize panels"></div>
+      <main class="app__content">
+        <article>
+          {{ section.content | safe }}
+        </article>
+      </main>
+    </div>
+    <footer class="app__footer">
+      <div class="footer__inner">
+        <span>© {{ now() | date(format="%Y") }}</span>
+      </div>
+    </footer>
+    <div class="app__alerts" aria-live="polite" aria-atomic="true">
+      <div class="alerts__inner">
+        <!-- mensajes / popups -->
+      </div>
+    </div>
+  </div>
+  <script src="/theme.js"></script>
+  <script src="/resize.js"></script>
 </body>
 </html>

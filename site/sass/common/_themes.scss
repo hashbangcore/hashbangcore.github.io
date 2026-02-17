@@ -1,0 +1,34 @@
+@use "sass:map";
+
+$schemes: (
+  "dark": (
+    "bg": #141210,
+    "bg-elev": #1b1815,
+    "text": #e7e1d8,
+    "text-muted": #b9b0a4,
+    "accent": #c87400,
+    "border": #2a241e,
+  ),
+  "light": (
+    "bg": #f6f1ea,
+    "bg-elev": #fbf7f1,
+    "text": #1f1b16,
+    "text-muted": #5c5247,
+    "accent": #c87400,
+    "border": #dfd6ca,
+  ),
+);
+
+@mixin apply($name) {
+  $theme: map.get($schemes, $name);
+  @if $theme == null {
+    @error "Unknown theme: #{$name}";
+  }
+
+  --bg: #{map.get($theme, "bg")};
+  --bg-elev: #{map.get($theme, "bg-elev")};
+  --text: #{map.get($theme, "text")};
+  --text-muted: #{map.get($theme, "text-muted")};
+  --accent: #{map.get($theme, "accent")};
+  --border: #{map.get($theme, "border")};
+}
