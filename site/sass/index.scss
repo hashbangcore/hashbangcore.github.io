@@ -304,6 +304,10 @@ h1 {
   background: var(--bg-elev);
 }
 
+.search__results a.is-active {
+  background: var(--bg-elev);
+}
+
 article {
   color: var(--text);
   max-width: 72ch;
