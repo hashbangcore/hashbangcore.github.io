@@ -71,6 +71,7 @@ body {
 .app__footer {
   grid-area: footer;
   background-color: var(--bg);
+  min-height: 100px;
 }
 
 .app__body {
@@ -137,8 +138,9 @@ body {
   padding: 24px 40px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 18px;
+  min-height: 100px;
 }
 
 .header__brand {
