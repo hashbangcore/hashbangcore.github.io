@@ -16,40 +16,36 @@
   <div class="app">
     <header class="app__header">
       <div class="header__inner">
-        <div class="header__stack">
-          <div class="header__brand">
-            <span class="brand__title">HASHBANGCORE — SYSADMIN &amp; DEVELOPER</span>
-          </div>
-          <nav class="header__nav" aria-label="Principal">
-            <a href="/posts/">Posts</a>
-            <a href="/#projects">Projects</a>
-            <a href="/#contact">Contact</a>
-          </nav>
+        <div class="header__brand">
+          <span class="brand__title">HASHBANGCORE — SYSADMIN &amp; DEVELOPER</span>
         </div>
       </div>
     </header>
+    <div class="header__bar">
+      <div class="header__bar-inner">
+        <nav class="header__nav" aria-label="Principal">
+          <a href="/posts/">Posts</a>
+          <a href="/#projects">Projects</a>
+          <a href="/#contact">Contact</a>
+        </nav>
+        <nav class="header__icons" aria-label="Acciones">
+          <button class="icon-btn" type="button" aria-label="Buscar">
+            <i class="ph ph-magnifying-glass"></i>
+          </button>
+          <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar tema">
+            <i class="ph ph-sun-dim"></i>
+            <i class="ph ph-moon-stars"></i>
+          </button>
+          <a class="icon-btn" href="/" aria-label="Inicio">
+            <i class="ph ph-house"></i>
+          </a>
+        </nav>
+      </div>
+    </div>
     <div class="app__body">
       <aside class="app__sidebar">
         <div class="sidebar__inner">
           <h1></h1>
-          <nav class="sidebar__icons" aria-label="Navegación">
-            <button class="icon-btn" type="button" aria-label="Inicio">
-              <i class="ph ph-house"></i>
-            </button>
-            <button class="icon-btn" type="button" aria-label="Archivo">
-              <i class="ph ph-folder"></i>
-            </button>
-            <button class="icon-btn" type="button" aria-label="Buscar">
-              <i class="ph ph-magnifying-glass"></i>
-            </button>
-            <button class="icon-btn" type="button" aria-label="Acerca">
-              <i class="ph ph-info"></i>
-            </button>
-            <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar tema">
-              <i class="ph ph-sun-dim"></i>
-              <i class="ph ph-moon-stars"></i>
-            </button>
-          </nav>
         </div>
       </aside>
       <div class="app__resizer" role="separator" aria-orientation="vertical" aria-label="Resize panels"></div>
