@@ -1,6 +1,7 @@
 +++
 title = "Expansión en Bash: guía clara y práctica"
 date = 2026-02-18
+draft = true
 +++
 
 La expansión en Bash es el proceso por el cual el shell **transforma** lo que escribes antes de ejecutar el comando. Entenderla ayuda a evitar sorpresas, a escribir scripts más seguros y a leer mejor lo que hace el sistema.

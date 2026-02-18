@@ -11,12 +11,21 @@
       {% endif %}
     </header>
     <ul>
-      {% for page in section.pages %}
-        <li>
-          <a href="{{ page.permalink }}">{{ page.title }}</a>
-          <span>{{ page.date | date(format="%Y-%m-%d") }}</span>
-        </li>
-      {% endfor %}
+      {% if paginator %}
+        {% for page in paginator.pages %}
+          <li>
+            <a href="{{ page.permalink }}">{{ page.title }}</a>
+            <span>{{ page.date | date(format="%Y-%m-%d") }}</span>
+          </li>
+        {% endfor %}
+      {% else %}
+        {% for page in section.pages %}
+          <li>
+            <a href="{{ page.permalink }}">{{ page.title }}</a>
+            <span>{{ page.date | date(format="%Y-%m-%d") }}</span>
+          </li>
+        {% endfor %}
+      {% endif %}
     </ul>
   </article>
 {% endblock content %}
