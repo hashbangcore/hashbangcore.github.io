@@ -7,6 +7,7 @@
   if (!toggle) return;
 
   const media = window.matchMedia("(prefers-color-scheme: dark)");
+  const storageKey = "theme-preference";
 
   const getTheme = () => root.getAttribute("data-theme") || "dark";
   const setTheme = (name) => root.setAttribute("data-theme", name);
@@ -23,6 +24,12 @@
   };
 
   const setFromSystem = () => {
+    const stored = sessionStorage.getItem(storageKey);
+    if (stored === "light" || stored === "dark") {
+      setTheme(stored);
+      updateState(stored);
+      return;
+    }
     const next = media.matches ? "dark" : "light";
     setTheme(next);
     updateState(next);
@@ -33,6 +40,7 @@
     const next = current === "light" ? "dark" : "light";
     setTheme(next);
     updateState(next);
+    sessionStorage.setItem(storageKey, next);
   });
 
   setFromSystem();
