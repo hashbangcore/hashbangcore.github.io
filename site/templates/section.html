@@ -15,7 +15,6 @@
         {% for page in paginator.pages %}
           <li>
             <a href="{{ page.permalink }}">{{ page.title }}</a>
-            <span>{{ page.date | date(format="%Y-%m-%d") }}</span>
           </li>
         {% endfor %}
       {% else %}
