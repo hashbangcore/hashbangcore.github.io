@@ -256,16 +256,17 @@ article blockquote {
 }
 
 article code {
-  color: var(--text);
-  background: var(--bg-elev);
-  padding: 2px 6px;
-  border-radius: 4px;
+  color: inherit;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
 }
 
 article pre {
-  background: var(--bg-elev);
-  border: 1px solid var(--border);
-  padding: 16px;
+  background: transparent;
+  border: 0;
+  padding: 25px;
+  border-radius: 8px;
   overflow-x: auto;
 }
 

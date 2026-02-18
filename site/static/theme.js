@@ -1,6 +1,8 @@
 (() => {
   const root = document.documentElement;
   const toggle = document.querySelector(".theme-toggle");
+  const gialloLight = document.getElementById("giallo-light");
+  const gialloDark = document.getElementById("giallo-dark");
 
   if (!toggle) return;
 
@@ -14,6 +16,10 @@
       "aria-label",
       name === "dark" ? "Cambiar a tema claro" : "Cambiar a tema oscuro"
     );
+    if (gialloLight && gialloDark) {
+      gialloLight.disabled = name !== "light";
+      gialloDark.disabled = name !== "dark";
+    }
   };
 
   const setFromSystem = () => {
