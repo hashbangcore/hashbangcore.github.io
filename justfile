@@ -4,7 +4,7 @@ check:
   zola -r site check
 
 serve:
-  zola -r site serve -o .public --force
+  zola -r site serve --drafts -o .public --force
   
 build:
   zola -r site build -o build/public --force
