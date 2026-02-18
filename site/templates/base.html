@@ -31,9 +31,11 @@
           <a href="/#contact">Contact</a>
         </nav>
         <nav class="header__icons" aria-label="Acciones">
-          <button class="icon-btn" type="button" aria-label="Buscar">
-            <i class="ph ph-magnifying-glass"></i>
-          </button>
+          <div class="search">
+            <label class="sr-only" for="search-input">search</label>
+            <i class="ph ph-magnifying-glass search__icon" aria-hidden="true"></i>
+            <input id="search-input" class="search__input" type="search" placeholder="Buscar" autocomplete="off">
+          </div>
           <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar tema">
             <i class="ph ph-sun-dim"></i>
             <i class="ph ph-moon-stars"></i>
@@ -59,6 +61,9 @@
       </div>
     </div>
   </div>
+  <script src="/elasticlunr.min.js"></script>
+  <script src="/search_index.en.js"></script>
+  <script src="/search.js"></script>
   <script src="/theme.js"></script>
 </body>
 </html>
