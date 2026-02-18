@@ -149,21 +149,26 @@ body {
 }
 
 .header__stack {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 10px;
 }
 
 .header__brand {
   font-size: inherit;
   color: var(--text);
   white-space: nowrap;
+  width: 100%;
 }
 
 .header__nav {
   display: flex;
-  gap: 18px;
+  justify-content: flex-start;
+  gap: 22px;
   margin-left: 0;
+  width: 100%;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
 }
 
 .header__nav a {
@@ -186,13 +191,11 @@ h1 {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text);
-  padding: 10px 14px;
-  border-radius: 6px;
+  padding: 0;
+  border-radius: 10px;
   cursor: pointer;
   display: grid;
-  grid-auto-flow: column;
-  align-items: center;
-  gap: 8px;
+  place-items: center;
 }
 
 .theme-toggle:hover {

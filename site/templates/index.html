@@ -1,76 +1,9 @@
-<!DOCTYPE html>
-<html lang="es" data-theme="dark">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link
-    rel="stylesheet"
-    type="text/css"
-    href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css"
-  >
-  <link rel="stylesheet" href="/index.css">
-  <title>{{ section.title | default(value="Hash") }}</title>
-</head>
-<body>
-  <div class="app">
-    <header class="app__header">
-      <div class="header__inner">
-        <div class="header__stack">
-          <div class="header__brand">
-            <span class="brand__title">HASHBANGCORE — LINUX & RUST</span>
-          </div>
-          <nav class="header__nav" aria-label="Principal">
-            <a href="#publicaciones">Publicaciones</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
-          </nav>
-        </div>
-        <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar tema">
-          <i class="ph ph-sun-dim"></i>
-          <i class="ph ph-moon-stars"></i>
-        </button>
-      </div>
-    </header>
-    <div class="app__body">
-      <aside class="app__sidebar">
-        <div class="sidebar__inner">
-          <h1></h1>
-          <nav class="sidebar__icons" aria-label="Navegación">
-            <button class="icon-btn" type="button" aria-label="Inicio">
-              <i class="ph ph-house"></i>
-            </button>
-            <button class="icon-btn" type="button" aria-label="Archivo">
-              <i class="ph ph-folder"></i>
-            </button>
-            <button class="icon-btn" type="button" aria-label="Buscar">
-              <i class="ph ph-magnifying-glass"></i>
-            </button>
-            <button class="icon-btn" type="button" aria-label="Acerca">
-              <i class="ph ph-info"></i>
-            </button>
-          </nav>
-        </div>
-      </aside>
-      <div class="app__resizer" role="separator" aria-orientation="vertical" aria-label="Resize panels"></div>
-      <main class="app__content">
-        <article>
-          {{ section.content | safe }}
-        </article>
-      </main>
-    </div>
-    <footer class="app__footer">
-      <div class="footer__inner">
-        <span>© {{ now() | date(format="%Y") }}</span>
-      </div>
-    </footer>
-    <div class="app__alerts" aria-live="polite" aria-atomic="true">
-      <div class="alerts__inner">
-        <!-- mensajes / popups -->
-      </div>
-    </div>
-  </div>
-  <script src="/theme.js"></script>
-  <script src="/resize.js"></script>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}{{ section.title | default(value="Inicio") }}{% endblock title %}
+
+{% block content %}
+  <article>
+    {{ section.content | safe }}
+  </article>
+{% endblock content %}
