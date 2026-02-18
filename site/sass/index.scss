@@ -101,7 +101,6 @@ body {
   pointer-events: auto;
 }
 
-.sidebar__inner,
 .app__content > article {
   width: 100%;
   max-width: 100%;
@@ -156,10 +155,6 @@ body {
   font-size: inherit;
   color: var(--text);
   white-space: nowrap;
-}
-
-.header__bar {
-  width: 100%;
 }
 
 .header__bar-inner {
@@ -310,7 +305,6 @@ h1 {
 
 article {
   color: var(--text);
-  max-width: 72ch;
 }
 
 article h2,
