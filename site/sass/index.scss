@@ -99,6 +99,12 @@ body {
   box-sizing: border-box;
 }
 
+@media (min-width: 1025px) {
+  .app__content > article {
+    max-width: 90ch;
+  }
+}
+
 .icon-btn {
   width: 44px;
   height: 44px;
