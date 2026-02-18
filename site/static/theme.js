@@ -8,7 +8,10 @@
   const setTheme = (name) => root.setAttribute("data-theme", name);
   const updateState = (name) => {
     toggle.setAttribute("aria-pressed", name === "dark" ? "true" : "false");
-    toggle.textContent = name === "dark" ? "Tema: oscuro" : "Tema: claro";
+    toggle.setAttribute(
+      "aria-label",
+      name === "dark" ? "Cambiar a tema claro" : "Cambiar a tema oscuro"
+    );
   };
 
   toggle.addEventListener("click", () => {

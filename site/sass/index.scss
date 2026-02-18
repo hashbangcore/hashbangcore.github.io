@@ -124,11 +124,18 @@ body {
   background: transparent;
   color: var(--text);
   cursor: pointer;
+  display: grid;
+  place-items: center;
 }
 
 .icon-btn:hover {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+.icon-btn .ph {
+  font-size: 20px;
+  line-height: 1;
 }
 
 .header__inner,
@@ -152,11 +159,25 @@ h1 {
   padding: 10px 14px;
   border-radius: 6px;
   cursor: pointer;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 8px;
 }
 
 .theme-toggle:hover {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+.theme-toggle .ph {
+  font-size: 18px;
+  line-height: 1;
+}
+
+[data-theme="light"] .theme-toggle .ph-sun-dim,
+[data-theme="dark"] .theme-toggle .ph-moon-stars {
+  display: none;
 }
 
 article {
