@@ -4,6 +4,8 @@
 
   if (!toggle) return;
 
+  const media = window.matchMedia("(prefers-color-scheme: dark)");
+
   const getTheme = () => root.getAttribute("data-theme") || "dark";
   const setTheme = (name) => root.setAttribute("data-theme", name);
   const updateState = (name) => {
@@ -14,6 +16,12 @@
     );
   };
 
+  const setFromSystem = () => {
+    const next = media.matches ? "dark" : "light";
+    setTheme(next);
+    updateState(next);
+  };
+
   toggle.addEventListener("click", () => {
     const current = getTheme();
     const next = current === "light" ? "dark" : "light";
@@ -21,5 +29,6 @@
     updateState(next);
   });
 
-  updateState(getTheme());
+  setFromSystem();
+  media.addEventListener("change", setFromSystem);
 })();
