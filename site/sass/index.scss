@@ -4,6 +4,16 @@
 :root {
   color-scheme: dark;
   @include theme.apply("dark");
+  --app-pad-x: 128px;
+  --header-font-size: 18px;
+  --header-pad: 24px 40px 12px;
+  --bar-pad: 12px 40px 16px;
+  --bar-gap: 20px;
+  --nav-gap: 22px;
+  --icon-size: 44px;
+  --search-width: 220px;
+  --article-pad: 40px;
+  --article-max: 90ch;
 }
 
 [data-theme="light"] {
@@ -29,6 +39,7 @@ body {
   height: 100%;
   display: grid;
   overflow-x: hidden;
+  padding: 0 var(--app-pad-x);
   grid-template-rows: auto auto 1fr auto;
   grid-template-areas:
     "header header"
@@ -86,20 +97,14 @@ body {
 
 .app__content > article {
   width: 100%;
-  max-width: 100%;
-  padding: 40px;
+  max-width: var(--article-max);
+  padding: var(--article-pad);
   box-sizing: border-box;
 }
 
-@media (min-width: 1025px) {
-  .app__content > article {
-    max-width: 90ch;
-  }
-}
-
 .icon-btn {
-  width: 44px;
-  height: 44px;
+  width: var(--icon-size);
+  height: var(--icon-size);
   border-radius: 10px;
   border: 1px solid transparent;
   background: transparent;
@@ -121,8 +126,8 @@ body {
 }
 
 .header__inner {
-  padding: 24px 40px 12px;
-  font-size: 18px;
+  padding: var(--header-pad);
+  font-size: var(--header-font-size);
 }
 
 .footer__inner {
@@ -141,20 +146,20 @@ body {
 }
 
 .header__bar-inner {
-  padding: 12px 40px 16px;
+  padding: var(--bar-pad);
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-areas: "header-links header-icons";
   align-items: center;
-  column-gap: 20px;
-  font-size: 18px;
+  column-gap: var(--bar-gap);
+  font-size: var(--header-font-size);
 }
 
 .header__nav {
   grid-area: header-links;
   display: flex;
   justify-content: flex-start;
-  gap: 22px;
+  gap: var(--nav-gap);
   margin-left: 0;
 }
 
@@ -235,7 +240,7 @@ h1 {
 }
 
 .search__input {
-  width: 220px;
+  width: var(--search-width);
   height: 36px;
   padding: 0 12px 0 34px;
   border-radius: 10px;
@@ -341,13 +346,17 @@ article hr {
 }
 
 @media (max-width: 640px) {
-  .app {
-    padding: 0;
-  }
-
-  .header__inner {
-    padding: 18px 16px 8px;
-    font-size: 16px;
+  :root {
+    --app-pad-x: 0px;
+    --header-font-size: 16px;
+    --header-pad: 18px 16px 8px;
+    --bar-pad: 10px 16px 12px;
+    --bar-gap: 12px;
+    --nav-gap: 10px 14px;
+    --icon-size: 40px;
+    --search-width: 100%;
+    --article-pad: 24px 16px;
+    --article-max: 100%;
   }
 
   .header__brand {
@@ -356,7 +365,6 @@ article hr {
   }
 
   .header__bar-inner {
-    padding: 10px 16px 12px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -364,9 +372,7 @@ article hr {
   }
 
   .header__nav {
-    flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px 14px;
   }
 
   .header__icons {
@@ -382,60 +388,41 @@ article hr {
     order: 1;
   }
 
-  .search__input {
-    width: 100%;
-  }
-
   .header__icons .icon-btn {
     order: 2;
-  }
-
-  .icon-btn {
-    width: 40px;
-    height: 40px;
-  }
-
-  .app__content > article {
-    padding: 24px 16px;
   }
 }
 
 @media (min-width: 641px) and (max-width: 1024px) {
-  .app {
-    padding: 0 24px;
-  }
-
-  .header__inner {
-    padding: 20px 24px 10px;
-    font-size: 17px;
-  }
-
-  .header__bar-inner {
-    padding: 10px 24px 14px;
-    column-gap: 16px;
+  :root {
+    --app-pad-x: 24px;
+    --header-font-size: 17px;
+    --header-pad: 20px 24px 10px;
+    --bar-pad: 10px 24px 14px;
+    --bar-gap: 16px;
+    --nav-gap: 12px 16px;
+    --icon-size: 42px;
+    --search-width: 200px;
+    --article-pad: 32px 24px;
+    --article-max: 100%;
   }
 
   .header__nav {
-    gap: 12px 16px;
     flex-wrap: wrap;
-  }
-
-  .search__input {
-    width: 200px;
-  }
-
-  .icon-btn {
-    width: 42px;
-    height: 42px;
-  }
-
-  .app__content > article {
-    padding: 32px 24px;
   }
 }
 
 @media (min-width: 1025px) {
-  .app {
-    padding: 0 128px;
+  :root {
+    --app-pad-x: 128px;
+    --header-font-size: 18px;
+    --header-pad: 24px 40px 12px;
+    --bar-pad: 12px 40px 16px;
+    --bar-gap: 20px;
+    --nav-gap: 22px;
+    --icon-size: 44px;
+    --search-width: 220px;
+    --article-pad: 40px;
+    --article-max: 90ch;
   }
 }
