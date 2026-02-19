@@ -32,9 +32,14 @@
         </nav>
         <nav class="header__icons" aria-label="Acciones">
           <div class="search">
-            <label class="sr-only" for="search-input">search</label>
-            <i class="ph ph-magnifying-glass search__icon" aria-hidden="true"></i>
-            <input id="search-input" class="search__input" type="search" placeholder="Buscar" autocomplete="off">
+            <button class="icon-btn search-toggle" type="button" aria-label="Buscar" aria-expanded="false">
+              <i class="ph ph-magnifying-glass"></i>
+            </button>
+            <div class="search__field">
+              <label class="sr-only" for="search-input">search</label>
+              <i class="ph ph-magnifying-glass search__icon" aria-hidden="true"></i>
+              <input id="search-input" class="search__input" type="search" placeholder="Buscar" autocomplete="off">
+            </div>
           </div>
           <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar tema">
             <i class="ph ph-sun-dim"></i>

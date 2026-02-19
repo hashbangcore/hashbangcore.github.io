@@ -231,6 +231,16 @@ h1 {
   align-items: center;
 }
 
+.search-toggle {
+  display: none;
+}
+
+.search__field {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
 .search__icon {
   position: absolute;
   left: 12px;
@@ -371,25 +381,67 @@ article hr {
     row-gap: 12px;
   }
 
+  .search-toggle {
+    display: grid;
+  }
+
+  .search__field {
+    display: none;
+  }
+
+  .search.search--open .search__field {
+    display: flex;
+    position: fixed;
+    left: 16px;
+    right: 16px;
+    top: 12px;
+    z-index: 70;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 6px;
+  }
+
+  .search.search--open .search__input {
+    width: 100%;
+  }
+
+  .header__icons {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg);
+    border-top: 1px solid var(--border);
+    padding: 10px 16px;
+    justify-content: center;
+    z-index: 60;
+  }
+
+  .header__icons .search {
+    position: static;
+    order: 0;
+    width: auto;
+    flex: 0 0 auto;
+  }
+
   .header__nav {
     flex-wrap: wrap;
   }
 
-  .header__icons {
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 10px;
-    width: 100%;
-  }
-
   .search {
-    flex: 1 1 100%;
-    width: 100%;
+    flex: 0 0 auto;
+    width: auto;
     order: 1;
   }
 
-  .header__icons .icon-btn {
+  .header__icons .icon-btn,
+  .header__icons .theme-toggle {
     order: 2;
+  }
+
+  .app__body {
+    padding-bottom: 80px;
   }
 }
 
