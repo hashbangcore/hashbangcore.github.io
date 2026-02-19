@@ -7,8 +7,7 @@ serve:
   zola -r site serve --drafts -o .public --force
   
 build:
-  rm -f site/static/giallo-light.css site/static/giallo-dark.css
-  zola -r site build -o build/public --force
+  zola -r site build -o public --force
 
 commit hint="":
   netero commit {{ hint }} | git commit --edit -F -
