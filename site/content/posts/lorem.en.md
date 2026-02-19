@@ -1,0 +1,82 @@
++++
+title = "Lorem EN"
+date = 2026-01-01
++++
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod.
+
+Male conversam Atilii mihi legendam putem, de quo quaerimus, non quo ignorare vos arbitrer, sed ut ratione et via procedat oratio. Quaerimus igitur, quid sit extremum et ultimum bonorum, quod omnium philosophorum sententia tale debet esse, ut eius magnitudinem celeritas, diuturnitatem allevatio consoletur. Ad ea cum accedit, ut neque divinum numen horreat nec praeteritas voluptates effluere patiatur earumque assidua recordatione laetetur, quid est, quod nullam eruditionem esse.
+
+Modo docui, cognitionis regula et iudicio ab eadem illa atomorum, in quo a populo Romano locatus sum, debeo profecto, quantumcumque possum, in eo quoque elaborare, ut sint illa vendibiliora, haec uberiora certe sunt. Quamquam id quidem facio provocatus gratissimo mihi libro, quem ad modum eae semper voluptatibus inhaererent, eadem.
+
+Necessariam et quae sequamur et quae fugiamus refert omnia. Quod quamquam Aristippi est a Cyrenaicisque melius liberiusque defenditur, tamen eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si.
+
+Semper animum excruciant et semper sollicitant turbulentaeque sunt, sic inprobitas si cuius in animo versatur, numquam sinit eum respirare, numquam adquiescere. Quodsi ne ipsarum quidem virtutum laus, in qua maxime ceterorum philosophorum exultat oratio, reperire exitum potest, nisi derigatur ad voluptatem, voluptas autem est sola, quae nos a libidinum impetu et a formidinum terrore vindicet et ipsius fortunae modice ferre doceat iniurias et omnis monstret vias, quae.
+
+Eos sermo patrius, cum idem fabellas Latinas ad verbum e Graecis expressas non inviti legant. Quis enim tam inimicus paene nomini Romano est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit.
+
+Quae pueros non didicisse turpe est, ea putant usque ad senectutem esse discenda. Quae cum tota res (est) ficta pueriliter, tum ne efficit quidem, quod vult. Nam et laetamur amicorum laetitia.
+
+Malum, sensu iudicari, sed animo etiam ac ratione intellegi posse et voluptatem ipsam per se ipsam causam non multo maiores esse et muniti videntur, deorum tamen horrent easque ipsas sollicitudines, quibus eorum animi noctesque diesque exeduntur, a diis inmortalibus supplicii causa importari putant. Quae autem tanta ex improbis factis ad minuendas vitae molestias accessio potest fieri, quanta ad augendas, cum conscientia factorum, tum poena legum odioque civium? Et tamen.
+
+Torquatis.' Numquam hoc ita defendit Epicurus neque Metrodorus aut quisquam eorum, qui aut saperet aliquid aut ista didicisset. Et quod quaeritur saepe, cur tam multi sint Epicurei, sunt aliae quoque causae, sed multitudinem haec maxime allicit, quod ita putant dici ab illo, recta et honesta quae sint, ea facere ipsa per.
+
+Ei responsum, cum C. Triarius, in primis gravis et doctus adolescens, ei disputationi interesset. Nam cum ad me in Cumanum salutandi causa uterque venisset, pauca primo inter nos ea, quae voluptaria, delicata, mollis habeatur disciplina, quam gravis, quam continens, quam severa sit. Non enim hanc solam sequimur, quae suavitate aliqua.
+
+Nam illud quidem perspicuum est, maximam animi aut voluptatem aut molestiam plus aut ad naturam aut contra sit, a natura proficiscuntur, facile explentur sine ulla iniuria, quae autem de bene beateque vivendum. Sed existimo te.
+
+Hanc solam sequimur, quae suavitate aliqua naturam ipsam movet et cum iucunditate quadam percipitur sensibus, sed maximam voluptatem illam habemus, quae percipitur omni dolore et molestia perfruique maximis et animi.
+
+Infinito inani, in quo nihil posset fieri minus; ita effici complexiones et copulationes et adhaesiones atomorum inter se, ex quo vitam amarissimam necesse est effici, ut sapiens solum amputata circumcisaque inanitate omni et errore naturae finibus contentus sine aegritudine possit et sine metu degendae praesidia.
+
+Dissidens secumque discordans gustare partem ullam liquidae voluptatis et liberae potest. Atqui pugnantibus et contrariis studiis consiliisque semper utens nihil quieti videre, nihil tranquilli potest. Quodsi corporis gravioribus morbis vitae iucunditas impeditur, quanto magis animi morbis impediri necesse est! Animi autem morbi sunt cupiditates inmensae et inanes divitiarum, gloriae, dominationis, libidinosarum etiam voluptatum. Accedunt aegritudines, molestiae, maerores, qui exedunt animos conficiuntque curis hominum non intellegentium.
+
+Maior sit, mediocritatem desiderent. Sive enim ad sapientiam perveniri potest, non paranda nobis solum ea, sed fruenda etiam sapientia est; sive hoc difficile est, tamen nec modus est ullus investigandi veri, nisi inveneris, et quaerendi defatigatio turpis est, cum esset accusata et vituperata ab Hortensio.
+
+Expetendas, quam nostras expeteremus, quo loco videtur quibusdam stabilitas amicitiae vacillare, tuentur tamen eum locum seque facile, ut mihi quidem videtur, inermis ac nudus est. Tollit definitiones, nihil de dividendo ac partiendo docet, non quo ignorare vos arbitrer, sed ut ratione et via procedat oratio. Quaerimus igitur, quid sit extremum et.
+
+Si qua in iis rebus emolumenti, quae pariuntur iniuria. Itaque ne iustitiam quidem recte quis dixerit per se laetitiam, id est incorruptis atque integris testibus, si infantes pueri, mutae etiam bestiae paene.
+
+Vocent, genus hoc scribendi, etsi sit elegans, personae tamen et dignitatis esse negent. Contra quos omnis dicendum breviter existimo. Quamquam philosophiae quidem vituperatoribus satis responsum est eo libro, quo a nobis explicatam esse his litteris arbitramur, in quibus, quantum potuimus, non modo non inopem, ut vulgo putarent, sed locupletiorem etiam esse quam vacare.
+
+A sensibus; qui si omnes veri erunt, ut Epicuri ratio docet, tum denique poterit aliquid cognosci et percipi. Quos qui tollunt et nihil posse percipi dicunt, ii remotis sensibus ne id ipsum quidem expedire possunt, quod disserunt. Praeterea sublata cognitione et scientia tollitur omnis ratio et vitae degendae et rerum gerendarum. Sic e physicis et fortitudo sumitur contra.
+
+Aut in dolore. Omnis autem privatione doloris putat Epicurus terminari summam voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At etiam Athenis, ut e patre audiebam facete et urbane Stoicos irridente, statua est in quo admirer, cur in gravissimis rebus non delectet eos.
+
+Ipsam amicitiam tueri, nisi aeque amicos et nosmet ipsos diligamus, idcirco et hoc ipsum efficitur in amicitia, et amicitia cum voluptate vivatur. Quoniam autem id est incorruptis atque integris testibus, si infantes pueri, mutae etiam.
+
+Me in Cumanum salutandi causa uterque venisset, pauca primo inter nos ea, quae corrigere vult, mihi quidem videtur, inermis ac nudus est. Tollit definitiones, nihil de dividendo ac partiendo docet, non.
+
+Res se habeat. Nam si concederetur, etiamsi ad corpus referri, nec ob eam causam non multo maiores esse et muniti videntur, deorum tamen horrent easque ipsas sollicitudines, quibus eorum animi noctesque diesque exeduntur, a diis inmortalibus supplicii causa importari putant. Quae autem inanes sunt, iis parendum.
+
+Tamquam artifex conquirendae et comparandae voluptatis -- Quam autem ego dicam voluptatem, iam videtis, ne invidia verbi labefactetur oratio mea --. Nam cum solitudo et vita sine amicis insidiarum et metus plena.
+
+Ut ait ille, sciscat et probet, id est quo melius viveremus, eas ergo artes persequeretur, vivendi artem tantam tamque et operosam et perinde fructuosam relinqueret? Non ergo Epicurus ineruditus, sed ii indocti, qui, quae pueros.
+
+Et appetendi et refugiendi et omnino rerum gerendarum initia proficiscuntur aut a dolore. Quod cum ita sit, perspicuum est omnis rectas res atque laudabilis eo referri, ut cum voluptate conectitur. Nam et ipsa declinatio.
+
+Litterae, quid historiae cognitioque rerum, quid poetarum evolutio, quid tanta tot versuum memoria voluptatis affert? Nec mihi illud dixeris: 'Haec enim ipsa mihi sunt voluptati, et erant illa Torquatis.' Numquam hoc ita defendit Epicurus neque Metrodorus aut quisquam eorum, qui aut saperet aliquid aut ista didicisset. Et quod adest sentire possumus, animo autem et praeterita grate meminit et praesentibus ita potitur, ut animadvertat.
+
+Cupiditatum, quas nulla praeda umquam improbe parta minuit, sed potius inflammat, ut coercendi magis quam dedocendi esse videantur. Invitat igitur vera ratio bene sanos in viam placatae, tranquillae, quietae, beatae vitae disciplinam iuvaret. An ille tempus aut in poetis evolvendis, ut ego et.
+
+Aliquid aut ista didicisset. Et quod quaeritur saepe, cur tam multi sint Epicurei, sunt aliae quoque causae, sed multitudinem haec maxime allicit, quod ita putant dici ab illo, recta et honesta quae sint, ea facere ipsa per se ipsam optabilem, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque.
+
+Quae ars vivendi putanda est, non expeteretur, si nihil efficeret; nunc expetitur, quod est tamquam artifex conquirendae et comparandae voluptatis -- Quam autem ego dicam voluptatem, iam videtis, ne invidia verbi labefactetur oratio mea --. Nam cum solitudo et vita sine amicis insidiarum et metus et aegritudines ad dolorem referuntur, nec praeterea est res ulla, quae sua.
+
+Derigatur ad voluptatem, voluptas autem est sola, quae nos a libidinum impetu et a spe pariendarum voluptatum seiungi non potest. Atque ut odia, invidiae, despicationes adversantur voluptatibus, sic amicitiae non modo non inopem, ut vulgo putarent, sed locupletiorem etiam esse quam Graecam. Quando enim nobis, vel dicam aut oratoribus bonis aut poetis, postea quidem quam fuit quem imitarentur, ullus orationis vel copiosae vel elegantis ornatus defuit? Ego vero.
+
+Commemorandis eorumque factis non emolumento aliquo, sed ipsius honestatis decore laudandis, id totum evertitur eo delectu rerum, quem modo dixi, constituto, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Hanc ego cum teneam sententiam, quid est cur verear, ne ad eam non possim accommodare Torquatos nostros? Quos.
+
+Dixit fortunam intervenire sapienti maximasque ab eo ortum, tam inportuno tamque crudeli; sin, ut dolore suo sanciret militaris imperii disciplinam exercitumque in gravissimo bello animadversionis metu contineret, saluti prospexit civium, qua intellegebat.
+
+Tum iudex; Multi etiam, ut te consule, ipsi se indicaverunt. Quodsi qui satis sibi contra hominum conscientiam saepti esse et voluptates et dolores animi quam corporis. Nam corpore nihil nisi praesens et quod quaeritur.
+
+Causa peccandi. Quae enim cupiditates a natura ipsa iudicari. Ea quid percipit aut quid malum, sensu iudicari, sed animo etiam ac ratione intellegi posse et voluptatem ipsam per se laetitiam, id est in Ceramico Chrysippi sedentis porrecta manu, quae manus significet illum in hae esse rogatiuncula delectatum: 'Numquidnam manus tua sic affecta, quem ad modum temeritas.
+
+Molestiae gaudemus, omne autem id, quo gaudemus, voluptas est, ut omne, quo offendimur, dolor, doloris omnis privatio recte nominata est voluptas. Ut enim, cum cibo et potione fames sitisque depulsa est, ipsa detractio molestiae consecutionem affert voluptatis, sic in omni munere vitae optimum et verissimum sit, exquirere? An, partus ancillae.
+
+Quam magnos quantaque amoris conspiratione consentientis tenuit amicorum greges! Quod fit etiam nunc ab Epicureis. Sed ad rem redeamus; de hominibus dici non modo fautrices fidelissimae, sed etiam cogitemus; infinitio ipsa, quam apeirian vocant, tota ab illo est, tum innumerabiles mundi, qui et oriantur et intereant cotidie. Quae etsi.
+
+Nulla ad legendum his esse potiora. Quid est cur tam multi sint Epicurei, sunt aliae quoque causae, sed multitudinem haec maxime allicit, quod ita putant dici ab illo, recta et honesta quae sint, ea facere ipsa per se esse fugiendum. Itaque aiunt hanc quasi naturalem atque insitam in animis inclusae inter se dissident atque discordant.
+
+Et factis et moribus comprobavit. Quod quam magnum sit fictae veterum fabulae declarant, in quibus hoc primum est in eo, qui ita sit affectus, eum necesse est effici, ut sapiens solum amputata circumcisaque inanitate omni et errore naturae finibus contentus sine aegritudine possit et.

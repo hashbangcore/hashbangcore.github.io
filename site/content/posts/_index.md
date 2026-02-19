@@ -1,9 +1,5 @@
 +++
-title = "Posts"
+title = "Posts ES"
 sort_by = "date"
 paginate_by = 10
 +++
-
-# Posts
-
-Aquí encontrarás las publicaciones más recientes.

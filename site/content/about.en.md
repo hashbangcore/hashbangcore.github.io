@@ -1,5 +1,5 @@
 +++
-title = "Contact"
+title = "About"
 +++
 
-Email: hashbangcore@duck.com
+About page EN

@@ -2,4 +2,4 @@
 title = "Home"
 +++
 
-English translation coming soon.
+Main page EN
