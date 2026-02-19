@@ -26,9 +26,9 @@
     <div class="header__bar">
       <div class="header__bar-inner">
         <nav class="header__nav" aria-label="Principal">
-          <a href="/posts/">Posts</a>
-          <a href="/projects">Projects</a>
-          <a href="/contact">Contact</a>
+          <a href="{{ get_url(path='@/posts/_index.md', lang=lang) }}">Posts</a>
+          <a href="{{ get_url(path='@/projects/_index.md', lang=lang) }}">Projects</a>
+          <a href="{{ get_url(path='@/contact.md', lang=lang) }}">Contact</a>
         </nav>
         <nav class="header__icons" aria-label="Acciones">
           <div class="search">
@@ -40,6 +40,17 @@
             <i class="ph ph-sun-dim"></i>
             <i class="ph ph-moon-stars"></i>
           </button>
+          {% if lang == "en" %}
+            {% set other_url = current_path | replace(from="/en/", to="/") %}
+            {% if other_url == "" %}
+              {% set other_url = "/" %}
+            {% endif %}
+          {% else %}
+            {% set other_url = "/en" ~ current_path %}
+          {% endif %}
+          <a class="icon-btn" href="{{ other_url }}" aria-label="Cambiar idioma">
+            <i class="ph ph-translate"></i>
+          </a>
           <a class="icon-btn" href="/" aria-label="Inicio">
             <i class="ph ph-house"></i>
           </a>
@@ -62,7 +73,7 @@
     </div>
   </div>
   <script src="/elasticlunr.min.js"></script>
-  <script src="/search_index.en.js"></script>
+  <script src="/search_index.{{ lang }}.js"></script>
   <script src="/search.js"></script>
   <script src="/theme.js"></script>
 </body>

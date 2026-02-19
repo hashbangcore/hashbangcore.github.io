@@ -5,6 +5,17 @@
 
   if (!input || !alertsInner || !window.searchIndex || !window.elasticlunr) return;
 
+  const ensureLangPipeline = () => {
+    const pipeline = window.elasticlunr.Pipeline;
+    const noop = (token) => token;
+    ["trimmer-es", "stopWordFilter-es", "stemmer-es"].forEach((name) => {
+      if (!pipeline.registeredFunctions[name]) {
+        pipeline.registerFunction(noop, name);
+      }
+    });
+  };
+
+  ensureLangPipeline();
   const idx = window.elasticlunr.Index.load(window.searchIndex);
   const docs = idx.documentStore?.docs || {};
 

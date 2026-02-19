@@ -3,6 +3,9 @@ title = "Documentación del comando nmap"
 date = 2026-02-18
 draft = true
 +++
+
+# Nmap: Herramienta de escaneo de red
+
 ## Descripción
 Nmap (Network Mapper) es una herramienta de código abierto para el descubrimiento de hosts y servicios en una red. Es una de las herramientas más utilizadas en auditorías de seguridad y administración de redes.
 

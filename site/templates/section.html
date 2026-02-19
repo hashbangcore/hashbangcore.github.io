@@ -21,7 +21,9 @@
         {% for page in section.pages %}
           <li>
             <a href="{{ page.permalink }}">{{ page.title }}</a>
-            <span>{{ page.date | date(format="%Y-%m-%d") }}</span>
+            {% if page.date %}
+              <span>{{ page.date | date(format="%Y-%m-%d") }}</span>
+            {% endif %}
           </li>
         {% endfor %}
       {% endif %}

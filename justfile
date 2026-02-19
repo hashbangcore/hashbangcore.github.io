@@ -12,3 +12,6 @@ build:
 
 commit hint="":
   netero commit {{ hint }} | git commit --edit -F -
+
+error:
+  just serve > error.txt 2>&1
