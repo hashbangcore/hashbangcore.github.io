@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}404 — {{ config.title | default(value="Hashbangcore") }}{% endblock title %}
+
+{% block content %}
+  <article class="page page--404">
+    <h1>404</h1>
+    <p>Not Found</p>
+    <div class="page__links">
+      <a href="{{ get_url(path='@/_index.md', lang=lang) }}">Home</a>
+      <a href="{{ get_url(path='@/posts/_index.md', lang=lang) }}">Posts</a>
+      <a href="{{ get_url(path='@/projects/_index.md', lang=lang) }}">Projects</a>
+    </div>
+  </article>
+{% endblock content %}

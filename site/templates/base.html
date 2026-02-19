@@ -47,13 +47,21 @@
             <i class="ph ph-sun-dim"></i>
             <i class="ph ph-moon-stars"></i>
           </button>
-          {% if lang == "en" %}
-            {% set other_url = current_path | replace(from="/en/", to="/") %}
-            {% if other_url == "" %}
-              {% set other_url = "/" %}
+          {% if current_path is defined %}
+            {% if lang == "en" %}
+              {% set other_url = current_path | replace(from="/en/", to="/") %}
+              {% if other_url == "" %}
+                {% set other_url = "/" %}
+              {% endif %}
+            {% else %}
+              {% set other_url = "/en" ~ current_path %}
             {% endif %}
           {% else %}
-            {% set other_url = "/en" ~ current_path %}
+            {% if lang == "en" %}
+              {% set other_url = "/" %}
+            {% else %}
+              {% set other_url = "/en/" %}
+            {% endif %}
           {% endif %}
           <a class="icon-btn" href="{{ other_url }}" aria-label="Cambiar idioma">
             <i class="ph ph-translate"></i>
