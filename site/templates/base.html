@@ -25,22 +25,24 @@
     </header>
     <div class="header__bar">
       <div class="header__bar-inner">
-        <nav class="header__nav" aria-label="Principal">
-          <a href="{{ get_url(path='@/about.md', lang=lang) }}">About</a>
-          <a href="{{ get_url(path='@/projects/_index.md', lang=lang) }}">Projects</a>
-          <a href="{{ get_url(path='@/posts/_index.md', lang=lang) }}">Posts</a>
-        </nav>
-        <nav class="header__icons" aria-label="Acciones">
+        <div class="header__tools">
           <div class="search">
-            <button class="icon-btn search-toggle" type="button" aria-label="Buscar" aria-expanded="false">
-              <i class="ph ph-magnifying-glass"></i>
-            </button>
             <div class="search__field">
               <label class="sr-only" for="search-input">search</label>
               <i class="ph ph-magnifying-glass search__icon" aria-hidden="true"></i>
               <input id="search-input" class="search__input" type="search" placeholder="Buscar" autocomplete="off">
             </div>
           </div>
+          <button class="icon-btn nav-toggle" type="button" aria-label="Menú" aria-expanded="false">
+            <i class="ph ph-list"></i>
+          </button>
+        </div>
+        <nav class="header__nav" aria-label="Principal">
+          <a href="{{ get_url(path='@/about.md', lang=lang) }}">About</a>
+          <a href="{{ get_url(path='@/projects/_index.md', lang=lang) }}">Projects</a>
+          <a href="{{ get_url(path='@/posts/_index.md', lang=lang) }}">Posts</a>
+        </nav>
+        <nav class="header__icons" aria-label="Acciones">
           <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar tema">
             <i class="ph ph-sun-dim"></i>
             <i class="ph ph-moon-stars"></i>

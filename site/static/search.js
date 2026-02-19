@@ -1,7 +1,8 @@
 (() => {
   const input = document.getElementById("search-input");
   const search = document.querySelector(".search");
-  const toggle = document.querySelector(".search-toggle");
+  const navToggle = document.querySelector(".nav-toggle");
+  const headerBar = document.querySelector(".header__bar");
   const alertsInner = document.querySelector(".alerts__inner");
   const main = document.querySelector(".app__content");
 
@@ -55,20 +56,13 @@
     activeIndex = index;
   };
 
-  const setSearchOpen = (open) => {
-    if (!search || !toggle) return;
-    search.classList.toggle("search--open", open);
-    toggle.setAttribute("aria-expanded", open ? "true" : "false");
-  };
-
   const hideResults = (options = {}) => {
-    const { clear = false, focus = false, close = false } = options;
+    const { clear = false, focus = false } = options;
     const results = getResults();
     if (!results) return;
     results.hidden = true;
     activeIndex = -1;
     if (clear) input.value = "";
-    if (close) setSearchOpen(false);
     if (focus) input.focus();
     if (!focus && main) main.focus();
   };
@@ -126,7 +120,7 @@
       if (!results || results.hidden) return;
       const active = document.activeElement;
       if (results.contains(active) || active === input) return;
-      hideResults({ clear: true, close: true });
+      hideResults({ clear: true });
     }, 0);
   });
 
@@ -135,7 +129,7 @@
     if (!results) return;
     if (search && search.contains(event.target)) return;
     if (!results.contains(event.target) && event.target !== input) {
-      hideResults({ clear: true, close: true });
+      hideResults({ clear: true });
     }
   });
 
@@ -176,7 +170,7 @@
       event.preventDefault();
       links[activeIndex].click();
     } else if (event.key === "Escape") {
-      hideResults({ clear: true, close: true, focus: true });
+      hideResults({ clear: true, focus: true });
     }
   });
 
@@ -188,17 +182,16 @@
   window.addEventListener("scroll", () => {
     const results = getResults();
     if (!results || results.hidden) return;
-    hideResults({ clear: true, close: true });
+    hideResults({ clear: true });
   }, { passive: true });
 
-  if (toggle) {
-    toggle.addEventListener("click", () => {
-      const isOpen = search.classList.contains("search--open");
-      if (isOpen) {
-        hideResults({ clear: true, close: true });
-      } else {
-        setSearchOpen(true);
-        input.focus();
+  if (navToggle && headerBar) {
+    navToggle.addEventListener("click", () => {
+      const isOpen = headerBar.classList.contains("nav-open");
+      headerBar.classList.toggle("nav-open", !isOpen);
+      navToggle.setAttribute("aria-expanded", (!isOpen).toString());
+      if (!isOpen) {
+        hideResults({ clear: true });
       }
     });
   }
