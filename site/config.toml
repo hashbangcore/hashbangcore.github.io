@@ -3,6 +3,7 @@ base_url = "https://hashbangcore.github.com"
 default_language = "es"
 generate_feeds = true
 feed_filenames = ["atom.xml"]
+theme = "default"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

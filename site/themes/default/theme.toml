@@ -1,0 +1,4 @@
+name = "default"
+description = "Minimal"
+license = "MIT"
+min_version = "0.1.0"
