@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://hashbangcore.github.com/sitemap.xml
+Sitemap: https://hashbangcore.github.io/sitemap.xml
