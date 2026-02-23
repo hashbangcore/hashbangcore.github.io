@@ -7,7 +7,7 @@ serve:
   zola -r site serve --drafts -o .public --force
   
 build:
-  zola -r site build -o docs --drafts --force
+  zola -r site build -o public --drafts --force
 
 commit hint="":
   netero commit {{ hint }} | git commit --edit -F -
