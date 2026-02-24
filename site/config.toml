@@ -1,4 +1,5 @@
 # The URL the site will be built for
+author = "hashbangcore"
 base_url = "https://hashbangcore.github.io"
 default_language = "es"
 generate_feeds = true
@@ -19,12 +20,11 @@ generate_feeds = true
 build_search_index = true
 generate_feeds = true
 
-[markdown]
-
 [markdown.highlighting]
 style = "class"
 light_theme = "github-dark"
 dark_theme = "github-light"
 
-[extra]
-# Put all your custom variables here
+[extra.locales]
+es = "es_CL"
+en = "en_US"
