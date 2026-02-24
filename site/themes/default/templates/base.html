@@ -44,6 +44,7 @@
           </button>
         </div>
         <nav class="header__nav" aria-label="Principal">
+          <a href="{{ get_url(path='@/_index.md', lang=lang) }}">Home</a>
           <a href="{{ get_url(path='@/work/_index.md', lang=lang) }}">Work</a>
           <a href="{{ get_url(path='@/posts/_index.md', lang=lang) }}">Posts</a>
         </nav>
@@ -79,7 +80,7 @@
           <a class="icon-btn" href="{{ feed_url }}" aria-label="RSS">
             <i class="ph ph-rss"></i>
           </a>
-          <a class="icon-btn" href="/" aria-label="Inicio">
+          <a class="icon-btn" href="{{ get_url(path='@/_index.md', lang=lang) }}" aria-label="Home">
             <i class="ph ph-house"></i>
           </a>
         </nav>
