@@ -10,7 +10,7 @@ build:
   zola -r site build -o public --drafts --force
 
 commit hint="":
-  netero commit {{ hint }} | git commit --edit -F -
+  netero commit -c docs/convention.txt {{ hint }} | git commit --edit -F -
 
 error:
   just serve > error.txt 2>&1
