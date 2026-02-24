@@ -1,0 +1,65 @@
+{% set iso_date = page.date | date(format="%Y-%m-%dT%H:%M:%S%:z") %}
+{% set human_date_es = page.date | date(format="%d %B %Y", locale="es_ES") %}
+{% set human_date_en = page.date | date(format="%B %d, %Y", locale="en_US") %}
+
+{% if lang == "es" %}
+  {% set human_date = human_date_es %}
+{% else %}
+  {% set human_date = human_date_en %}
+{% endif %}
+
+<header class="post-header" itemscope itemtype="https://schema.org/Article">
+  <meta itemprop="headline" content="{{ page.title }}">
+  <meta itemprop="datePublished" content="{{ iso_date }}">
+  <meta itemprop="dateModified" content="{{ iso_date }}">
+  <meta itemprop="inLanguage" content="{{ lang }}">
+  <meta itemprop="author" content="{{ page.author | default(value=config.author) }}">
+  <meta itemprop="mainEntityOfPage" content="{{ page.permalink }}">
+
+  {% if page.description %}
+    <meta itemprop="description" content="{{ page.description }}">
+  {% endif %}
+
+  {% if page.taxonomies.tags %}
+    {% for tag in page.taxonomies.tags %}
+      <meta itemprop="keywords" content="{{ tag }}">
+    {% endfor %}
+  {% endif %}
+
+  <h1 itemprop="name">{{ page.title }}</h1>
+
+  <p class="post-meta">
+    <time datetime="{{ iso_date }}" itemprop="datePublished">
+      {{ human_date }}
+    </time>
+  </p>
+</header>
+
+{# OpenGraph #}
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:url" content="{{ page.permalink }}">
+<meta property="og:locale" content="{{ config.extra.locales[page.lang] }}">
+{% if page.description %}
+<meta property="og:description" content="{{ page.description }}">
+{% endif %}
+
+{# JSON-LD #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title | escape }}",
+  "datePublished": "{{ iso_date }}",
+  "dateModified": "{{ iso_date }}",
+  "inLanguage": "{{ lang }}",
+  "mainEntityOfPage": "{{ page.permalink }}",
+  {% if page.description %}
+  "description": "{{ page.description | escape }}",
+  {% endif %}
+  "author": {
+    "@type": "Person",
+    "name": "{{ config.author | default(value='') | escape }}"
+  }
+}
+</script>
